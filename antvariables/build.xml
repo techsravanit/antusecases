@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="antvariables" basedir="." default="print">
+	<target name="print">
+		<echo>${ant.file}</echo>
+		<!-- /home/Sravani/antvariables/build.xml -->
+		<echo>${ant.java.version}</echo>
+		<!-- 1.8 -->
+		<echo>${ant.file.antvariables}</echo>
+		<!-- /home/Sravani/antvariables/build.xml -->
+		<echo>${ant.file.type.antvariables}</echo>
+		<!-- file -->
+		<echo>${ant.home}</echo>
+		<!-- /home/Sravani/sts-bundle/sts-3.8.4.RELEASE/plugins/org.apache.ant_1.9.6.v201510161327 -->
+		<echo>${ant.library.dir}</echo>
+		<!-- /home/Sravani/sts-bundle/sts-3.8.4.RELEASE/plugins/org.apache.ant_1.9.6.v201510161327/lib -->
+		<echo>${ant.project.name}</echo>
+		<!-- antvariables -->
+		<echo>${ant.version}</echo>
+		<!-- Apache Ant(TM) version 1.9.6 compiled on June 29 2015 -->
+	</target>
+
+</project>

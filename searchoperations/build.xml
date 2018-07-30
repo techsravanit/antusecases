@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="searchoperations" basedir="." default="init">
+	
+	<target name="init" depends="clean,mkdirs,compile,run"></target>
+	
+	<target name="clean">
+		<delete dir="build\classes"/>	
+		<delete dir="build"/>
+	</target>
+	
+	<target name="mkdirs">
+		<mkdir dir="build"/>
+		<mkdir dir="build\classes"/>
+	</target>
+	
+	<target name="compile">
+		<javac srcdir="src" destdir="build\classes"/>
+	</target>
+
+	<target name="run">
+		<java classname="com.so.test.SOTest" classpath="build\classes"/>	
+	</target>
+	
+</project>
